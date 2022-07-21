@@ -1,41 +1,39 @@
-.box{
-    width: 80%;
-    display: inline-block;
-    position: relative;
-    margin-left: 20%;
-    border-radius: 11px;
-
+.box {
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  margin-left: 20%;
+  border-radius: 11px;
 }
-.hover{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    /* background-color: rgba(0, 188, 212, 0); */
-    /* transition: background-color 0.5s; */
-
+.hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(0, 188, 212, 0); */
+  /* transition: background-color 0.5s; */
 }
 #body-container {
   display: flex;
 }
 
-#body-container >  div:nth-child(1){
+#body-container > div:nth-child(1) {
   width: 50%;
   margin-top: auto;
   margin-bottom: 100px;
   margin-left: 85px;
 }
-#body-container >  div:nth-child(1) > h1{
-    font-size: 39px;
-    font-family: 'Times New Roman', Times, serif;
+#body-container > div:nth-child(1) > h1 {
+  font-size: 39px;
+  font-family: "Times New Roman", Times, serif;
 }
-#body-container >  div:nth-child(1) > h2{
-    color: grey;
-    font-size: 32px;
+#body-container > div:nth-child(1) > h2 {
+  color: grey;
+  font-size: 32px;
 }
-#body-container >  div:nth-child(1) > p{
-    font-size: 28px;
+#body-container > div:nth-child(1) > p {
+  font-size: 28px;
 }
 
 #body-container > div:nth-child(2) {
@@ -43,104 +41,253 @@
   width: 50%;
   height: 600px;
 }
-#body-container > div:nth-child(2) > img{
-    width: 100%;
-    height: 100%;
+#body-container > div:nth-child(2) > img {
+  width: 100%;
+  height: 100%;
 }
-#big{
-    font-size: 20px;
-    display: flex;
-    width: 40%;
-    height: 30px;
-    margin-top: 9px;
-    padding: 2px 15px 2px 15px;
-    justify-content: center;
-    /* margin: auto; */
-    align-items: center;
-    border-radius: 50px;
-    background-color: rgb(156, 51, 83);
-    
+#big {
+  font-size: 20px;
+  display: flex;
+  width: 40%;
+  height: 30px;
+  margin-top: 9px;
+  padding: 2px 15px 2px 15px;
+  justify-content: center;
+  /* margin: auto; */
+  align-items: center;
+  border-radius: 50px;
+  background-color: rgb(156, 51, 83);
 }
-#body-container > div:nth-child(1) > div > a{
-    text-decoration: none;
-    color: white;
+#body-container > div:nth-child(1) > div > a {
+  text-decoration: none;
+  color: white;
 }
-#small{
-    margin-top: 10px;
-    font-size: 16px;
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-
+#small {
+  margin-top: 10px;
+  font-size: 16px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
 }
-#small p:nth-child(1){
-    color: rgb(156, 51, 83);
+#small p:nth-child(1) {
+  color: rgb(156, 51, 83);
 }
-#small p:nth-child(2){
-    color: grey;
+#small p:nth-child(2) {
+  color: grey;
 }
 .vl {
-    border-left: 2px solid grey;
-    
-  }
- #main{
-    width: 80%;
-    margin: auto;
-    border-radius: 10px;
-    height: 70px;
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
- } 
- .cl{
-    border-left: 6px solid rgb(156, 51, 83);
-    
- }
- #main > div:nth-child(2){
-    display: flex;
-    text-align: center;
-    margin: auto;
- }
- #main > div:nth-child(2)> img{
-    width:8% ;
-    margin-left: 26px;
- }
- #main > div:nth-child(2)> h2{
-    margin-left: 6px;
- }
- #main > h1{
-    color: grey;
- }
- .hea{
-    width: 60%;
-    text-align: center;
-    margin: auto;
- }
-
-#t{
-    display: flex;
-    width: 70%;
-    height: 40px;
-    margin: auto;
-    margin-left: 25%;
-    margin-top: 10px;
-    /* border-radius: 50px; */
+  border-left: 2px solid grey;
 }
- #t > button{
-    border: none;
-    border-top-right-radius: 80px 80px;
-    border-bottom-right-radius: 80px 80px;
-    background-color: rgb(156, 51, 83);
+#main {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  height: 70px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cl {
+  border-left: 6px solid rgb(156, 51, 83);
+}
+#main > div:nth-child(2) {
+  display: flex;
+  text-align: center;
+  margin: auto;
 
- }
- #t > input{
-    width: 65%;
-    padding-left: 15px;
-    border: 1px solid rgb(156, 51, 83);
-    border-top-left-radius: 80px 80px;
-    border-bottom-left-radius: 80px 80px;
-     /* border background-color: rgb(156, 51, 83); */
- }
- #t > button > img{
-    width: 100%;
-    height: 100%;
- }
+}
+#main > div:nth-child(2) > img {
+  width: 8%;
+  margin-left: 5%;
+}
+#main > div:nth-child(2) > h2 {
+  margin-left: 7%;
+}
+#main > h1 {
+  color: grey;
+  padding-right:15px;
+}
+.hea {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+#t {
+  display: flex;
+  width: 70%;
+  height: 40px;
+  margin: auto;
+  margin-left: 25%;
+  margin-top: 10px;
+  /* border-radius: 50px; */
+}
+#t > button {
+  border: none;
+  border-top-right-radius: 80px 80px;
+  border-bottom-right-radius: 80px 80px;
+  background-color: rgb(156, 51, 83);
+}
+#t > input {
+  width: 65%;
+  padding-left: 15px;
+  border: 1px solid rgb(156, 51, 83);
+  border-top-left-radius: 80px 80px;
+  border-bottom-left-radius: 80px 80px;
+  /* border background-color: rgb(156, 51, 83); */
+}
+#t > button > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* grid section */
+#box1 {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  margin-top: 20px;
+  padding-left: 35px;
+  padding-top: 15px;
+  gap: 20px;
+}
+#box1 > div {
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#box1 > div:hover {
+  background-color: rgb(156, 51, 83);
+  color: white;
+}
+#box1 > div p:hover {
+  color: white;
+}
+/* **************************** */
+#box3 {
+  width: 76%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  margin-top: 30px;
+  gap: 15px;
+}
+#box3 > div {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#box3 h3 {
+  color: grey;
+}
+@keyframes growProgressBar {
+  0%,
+  33% {
+    --pgPercentage: 0;
+  }
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@property --pgPercentage {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 0;
+}
+
+div[role="progressbar"] {
+  --size: 3rem;
+  --fg: rgb(55, 209, 35);
+  --bg: #def;
+  --pgPercentage: var(--value);
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(
+      closest-side,
+      white 80%,
+      transparent 0 99.9%,
+      white 0
+    ),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+div[role="progressbar"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) "%";
+}
+#box3 > div > div {
+  display: flex;
+}
+#box3 > div > div > div > h4 {
+  color: grey;
+  margin: auto;
+  margin-left: 18px;
+}
+#box3 > div > div > div > p {
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.hl {
+  border-left: 1px solid grey;
+}
+.calm {
+  margin-top: 20px;
+}
+.calm > div:nth-child(2) {
+  margin-left: 5px;
+}
+
+.il {
+  border-left: 3px solid rgb(156, 51, 83);
+}
+
+/* ********************* */
+a {
+  text-align: center;
+}
+a > h3 {
+  color: rgb(156, 51, 83);
+}
+#imo {
+  margin-top: 20px;
+  margin-left: 80px;
+  border-radius: 11px;
+}
+#imo > div {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 11px;
+}
+#shra {
+  margin-top: 50px;
+  background-image: linear-gradient(rgb(253, 200, 253), rgb(156, 51, 83));
+}
+
+#jub {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+#jub > h2 {
+  margin-top: 15%;
+  text-align: center;
+  font-size: 30px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+}
