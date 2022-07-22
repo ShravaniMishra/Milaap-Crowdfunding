@@ -21,6 +21,7 @@
 }
 #container > div:nth-child(1) > a:hover {
   background-color: rgb(156, 51, 83);
+  /* color: white; */
 }
 #container > div:nth-child(1) > a > h3:hover {
   color: white;

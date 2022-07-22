@@ -1,3 +1,6 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .box {
   width: 80%;
   display: inline-block;
@@ -23,6 +26,7 @@
   margin-top: auto;
   margin-bottom: 100px;
   margin-left: 85px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #body-container > div:nth-child(1) > h1 {
   font-size: 39px;

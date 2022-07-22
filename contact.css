@@ -1,0 +1,55 @@
+#bb {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(156, 51, 83);
+  width: 100%;
+}
+#bb > div:nth-child(1) {
+  margin-top: 10%;
+  margin-left: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  height: 300px;
+}
+#bb > div:nth-child(2) {
+  margin-left: 50px;
+  margin-top: 6%;
+  width: 50%;
+  height: 300px;
+}
+.tab {
+  display: flex;
+  /* justify-content: center; */
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Change background color of buttons on hover */
+/* .tab button:hover {
+  background-color: #ddd;
+  background-color: rgb(156, 51, 83);
+  color: white;
+} */
+
+/* Create an active/current tablink class */
+.tab div.active {
+  background-color: #ccc;
+  background-color: rgb(156, 51, 83);
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
