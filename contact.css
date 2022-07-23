@@ -27,17 +27,12 @@
   overflow: hidden;
   width: 100%;
   margin: auto;
-  justify-content: space-around;
+  margin-top: 30px;
+  
+  justify-content: space-evenly;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
-
-/* Change background color of buttons on hover */
-/* .tab button:hover {
-  background-color: #ddd;
-  background-color: rgb(156, 51, 83);
-  color: white;
-} */
 
 /* Create an active/current tablink class */
 .tab div.active {
@@ -52,4 +47,94 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+#conversation{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -35px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#social{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(51,156,142);
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#social > div{
+  margin-top: 25px;
+  margin-left: 80px;
+}
+
+#conversation > div{
+  display: flex;
+  border: 2px solid white;
+} 
+#conversation > div >img{
+  width: 20%;
+}
+#conversation > div >p{
+  margin-left: 5px;
+  margin-top: 22px;
+  color: white;
+  
+}
+/* **********form********************** */
+#contact{
+  width: 80%;
+  margin: auto;
+  margin-top: 45px;
+}
+#contact > div:nth-child(2) > form{
+  width: 100%;
+}
+#contact > div:nth-child(2)>form > input{
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 16px;
+  padding-bottom: 18px;
+  padding-left: 5px;
+  margin-bottom: 50px;
+}
+#contact > div:nth-child(2)>form > input[type="text"]{
+  margin-right: 20px;
+
+}
+#contact > div:nth-child(2)>form > input[type="submit"]{
+  width: 19%;
+  background-color: rgb(156, 51, 83);
+  padding-top: 17px;
+  border-radius: 26px;
+  color: white;
+  margin-top: 25px;
+}
+#contact > div:nth-child(2)>form > textarea{
+  width: 80%;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 15px;
+  border-radius: 11px;
+}
+
+
+
+
+
+
+
+
+
+/* **********footer*************** */
+#footer {
+  display: flex;
+  justify-content: space-around;
 }
