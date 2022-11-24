@@ -44,7 +44,7 @@ Features-:
 
 <br>
 
-<a href="https://ibb.co/SVFqhRD"><img src="https://i.ibb.co/0YHPghp/Screenshot-259.png" alt="Screenshot-259" border="0"></a><br /><a target='_blank' href='https://dedupelist.com/'>remove duplicate elements</a><br />
+<a href="https://ibb.co/SVFqhRD"><img src="https://i.ibb.co/0YHPghp/Screenshot-259.png" alt="Screenshot-259" border="0"></a><br />
 
 <br>
 
