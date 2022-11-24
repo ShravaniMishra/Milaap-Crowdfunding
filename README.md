@@ -29,7 +29,7 @@ Have a look ⬇️
 <a href="https://ibb.co/j3Jh0Ps"><img src="https://i.ibb.co/qmJBq3V/Screenshot-235.png" alt="Screenshot-235" border="0"></a><br />
 <br>
 
-<img src="/images/img2.png" alt="">
+<a href="https://ibb.co/MZMh4ng"><img src="https://i.ibb.co/178n5Z0/Screenshot-257.png" alt="Screenshot-257" border="0"></a>
 
 <br>
 <img src="/images/img3.png" alt="">
