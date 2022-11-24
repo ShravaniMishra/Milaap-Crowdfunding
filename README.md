@@ -23,11 +23,10 @@ Have a look ⬇️
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB0_ijMX_4xf0rGse2D334wtm-LcqQ_lrsFQ&usqp=CAU"  height="150"/>
 </p>
 
-**Deploying:** Netlify
+**Deploying:** Netlify-link : https://chic-halva-8427c2.netlify.app/
 <br>
 
-<img src="/images/img1.png" alt="">
-
+<a href="https://ibb.co/j3Jh0Ps"><img src="https://i.ibb.co/qmJBq3V/Screenshot-235.png" alt="Screenshot-235" border="0"></a><br />
 <br>
 
 <img src="/images/img2.png" alt="">
