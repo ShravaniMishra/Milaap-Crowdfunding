@@ -14,7 +14,12 @@ clone from here - https://github.com/ShravaniMishra/Milaap-Crowdfunding.git
 
 Have a look ⬇️
 
-
+##My Responsibilty -:
+- Landing Page
+- Contact Us
+Features-:
+- Google Map
+- Feedback Form
 
 ## Tech Stack
 <p float="left">
@@ -27,20 +32,22 @@ Have a look ⬇️
 <br>
 
 <a href="https://ibb.co/j3Jh0Ps"><img src="https://i.ibb.co/qmJBq3V/Screenshot-235.png" alt="Screenshot-235" border="0"></a><br />
-<br>
 
+<br>
 <a href="https://ibb.co/MZMh4ng"><img src="https://i.ibb.co/178n5Z0/Screenshot-257.png" alt="Screenshot-257" border="0"></a>
+<br>
+
+<a href="https://ibb.co/TMPLHb4"><img src="https://i.ibb.co/zVPJS7X/Screenshot-258.png" alt="Screenshot-258" border="0"></a>
 
 <br>
-<img src="/images/img3.png" alt="">
+
+<a href="https://ibb.co/SVFqhRD"><img src="https://i.ibb.co/0YHPghp/Screenshot-259.png" alt="Screenshot-259" border="0"></a><br /><a target='_blank' href='https://dedupelist.com/'>remove duplicate elements</a><br />
 
 <br>
-<img src="/images/img4.png" alt="">
+
+<a href="https://ibb.co/Xx13chW"><img src="https://i.ibb.co/HT6x5WK/Screenshot-260.png" alt="Screenshot-260" border="0"></a>
 
 <br>
-<img src="/images/img5.png" alt="">
 
-<br>
-<img src="/images/img6.png" alt="">
 
 ## THANK YOU ❤️
