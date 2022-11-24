@@ -14,9 +14,10 @@ clone from here - https://github.com/ShravaniMishra/Milaap-Crowdfunding.git
 
 Have a look ⬇️
 
-##My Responsibilty -:
+My Responsibilty -:
 - Landing Page
 - Contact Us
+
 Features-:
 - Google Map
 - Feedback Form
