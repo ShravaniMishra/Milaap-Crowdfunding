@@ -8,10 +8,10 @@
 
 
 This was a solo project executed within 4 days of span.
-
+clone from here - https://github.com/ShravaniMishra/Milaap-Crowdfunding.git
 
 Have a look ⬇️
-**clone from here - https://github.com/ShravaniMishra/Milaap-Crowdfunding.git
+
 
 
 ## Tech Stack
