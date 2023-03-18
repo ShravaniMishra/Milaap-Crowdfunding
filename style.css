@@ -60,13 +60,15 @@
   font-size: 5px;
   display: flex;
   width: 80%;
-  height: 150px;
   margin-top: 2px;
   justify-content: center;
   /* margin: auto; */
   align-items: center;
   border-radius: 50px;
   background-color: rgb(156, 51, 83);
+}
+#big>a{
+  font-size: 10px;
 }
 #body-container > div:nth-child(1) > div > a {
   text-decoration: none;
@@ -164,15 +166,15 @@
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
   margin: auto;
+  margin-left: -50%;
   margin-top: 20px;
-  /* padding-left: 35px;
-  padding-top: 15px; */
+  padding-left: 35px;
+  padding-top: 15px;
   gap: 20px;
   
 }
 #box1 > div {
   text-align: center;
-  margin-left: -30%;
   padding-top: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
