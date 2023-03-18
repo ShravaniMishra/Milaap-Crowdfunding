@@ -138,3 +138,8 @@
   display: flex;
   justify-content: space-around;
 }
+
+
+@media screen and (min-width: 320px) and (max-width:720px){
+    
+}
