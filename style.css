@@ -89,7 +89,7 @@
   border-left: 2px solid grey;
 }
 #main {
-  width: 80%;
+  width: 100%;
   margin: auto;
   border-radius: 10px;
   height: 70px;
@@ -102,17 +102,23 @@
   border-left: 6px solid rgb(156, 51, 83);
 }
 #main > div:nth-child(2) {
+  width: 100%;
   display: flex;
   text-align: center;
   margin: auto;
+  margin-top: -20%;
 
 }
 #main > div:nth-child(2) > img {
-  width: 8%;
+  width: 25%;
+  height: 60px;
   margin-left: 5%;
 }
 #main > div:nth-child(2) > h2 {
+  width: 100%;
   margin-left: 7%;
+  margin: auto;
+  font-size: 20px;
 }
 #main > h1 {
   color: grey;
@@ -129,7 +135,6 @@
   width: 70%;
   height: 40px;
   margin: auto;
-  margin-left: 25%;
   margin-top: 10px;
   /* border-radius: 50px; */
 }
@@ -158,14 +163,16 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  /* margin: auto; */
+  margin: auto;
   margin-top: 20px;
-  padding-left: 35px;
-  padding-top: 15px;
+  /* padding-left: 35px;
+  padding-top: 15px; */
   gap: 20px;
+  
 }
 #box1 > div {
   text-align: center;
+  margin-left: -30%;
   padding-top: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
