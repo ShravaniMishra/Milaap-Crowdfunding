@@ -1,323 +1,16 @@
-@media  screen and (max-width:600px){
-  *{
+* {
   font-family: Arial, Helvetica, sans-serif;
+}
+/* html {
+  max-width: 1300px;
+  margin: auto;
+} */
+body {
+  /* max-width: 100vw; */
+  overflow-x: hidden;
 }
 .box {
   width: 100%;
-  display: inline-block;
-  position: relative;
-  margin-left: 8%;
-  border-radius: 11px;
-   margin-bottom: 22%;
-
-}
-.hover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin-left: -10%;
- 
-  /* background-color: rgba(0, 188, 212, 0); */
-  /* transition: background-color 0.5s; */
-}
-#body-container {
-  display: flex;
-  margin-left: -60px;
-}
-
-#body-container > div:nth-child(1) {
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: 100px;
-  margin-left: 85px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-#body-container > div:nth-child(1) > h1 {
-  font-size: 39px;
-  font-family: "Times New Roman", Times, serif;
-}
-#body-container > div:nth-child(1) > h2 {
-  color: grey;
-  font-size: 32px;
-}
-#body-container > div:nth-child(1) > p {
-  font-size: 25px;
-}
-
-#body-container > div:nth-child(2) {
-  display: flex;
-  width: 80%;
-  height: 600px;
-}
-#body-container > div:nth-child(2) > img {
-  width: 100%;
-  margin-left: -20px;
-  /* height: 100%; */
-}
-#big {
-  font-size: 5px;
-  display: flex;
-  width: 80%;
-  margin-top: 2px;
-  justify-content: center;
-  /* margin: auto; */
-  align-items: center;
-  border-radius: 50px;
-  background-color: rgb(156, 51, 83);
-}
-#big>a{
-  font-size: 10px;
-}
-#body-container > div:nth-child(1) > div > a {
-  text-decoration: none;
-  color: white;
-}
-#small {
-  margin-top: 10px;
-  font-size: 16px;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-#small p:nth-child(1) {
-  color: rgb(156, 51, 83);
-}
-#small p:nth-child(2) {
-  color: grey;
-}
-.vl {
-  border-left: 2px solid grey;
-}
-#main {
-  width: 100%;
-  margin: auto;
-  border-radius: 10px;
-  height: 70px;
-  display: flex;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.cl {
-  border-left: 6px solid rgb(156, 51, 83);
-}
-#main > div:nth-child(2) {
-  width: 100%;
-  display: flex;
-  text-align: center;
-  margin: auto;
-  margin-top: -20%;
-
-}
-#main > div:nth-child(2) > img {
-  width: 25%;
-  height: 60px;
-  margin-left: 5%;
-}
-#main > div:nth-child(2) > h2 {
-  width: 100%;
-  margin-left: 7%;
-  margin: auto;
-  font-size: 20px;
-}
-#main > h1 {
-  color: grey;
-  padding-right:15px;
-}
-.hea {
-  width: 60%;
-  text-align: center;
-  margin: auto;
-}
-
-#t {
-  display: flex;
-  width: 70%;
-  height: 40px;
-  margin: auto;
-  margin-top: 10px;
-  /* border-radius: 50px; */
-}
-#t > button {
-  border: none;
-  border-top-right-radius: 80px 80px;
-  border-bottom-right-radius: 80px 80px;
-  background-color: rgb(156, 51, 83);
-}
-#t > input {
-  width: 65%;
-  padding-left: 15px;
-  border: 1px solid rgb(156, 51, 83);
-  border-top-left-radius: 80px 80px;
-  border-bottom-left-radius: 80px 80px;
-  /* border background-color: rgb(156, 51, 83); */
-}
-#t > button > img {
-  width: 100%;
-  height: 100%;
-}
-
-/* grid section */
-#box1 {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  margin: auto;
-  margin-left: -50%;
-  margin-top: 20px;
-  padding-left: 35px;
-  padding-top: 15px;
-  gap: 20px;
-  
-}
-#box1 > div {
-  text-align: center;
-  padding-top: 20px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-#box1 > div:hover {
-  background-color: rgb(156, 51, 83);
-  color: white;
-}
-#box1 > div p:hover {
-  color: white;
-}
-/* **************************** */
-#box3 {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  width: 100%;
-  margin: auto;
-  margin-top: 30px;
-  gap: 15px;
-}
-#box3 > div {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 12px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-#box3 h3 {
-  color: grey;
-}
-@keyframes growProgressBar {
-  0%,
-  33% {
-    --pgPercentage: 0;
-  }
-  100% {
-    --pgPercentage: var(--value);
-  }
-}
-
-@property --pgPercentage {
-  syntax: "<number>";
-  inherits: false;
-  initial-value: 0;
-}
-
-div[role="progressbar"] {
-  --size: 3rem;
-  --fg: rgb(55, 209, 35);
-  --bg: #def;
-  --pgPercentage: var(--value);
-  animation: growProgressBar 3s 1 forwards;
-  width: var(--size);
-  height: var(--size);
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  background: radial-gradient(
-      closest-side,
-      white 80%,
-      transparent 0 99.9%,
-      white 0
-    ),
-    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: calc(var(--size) / 5);
-  color: var(--fg);
-}
-
-div[role="progressbar"]::before {
-  counter-reset: percentage var(--value);
-  content: counter(percentage) "%";
-}
-#box3 > div > div {
-  display: flex;
-}
-#box3 > div > div > div > h4 {
-  color: grey;
-  margin: auto;
-  margin-left: 18px;
-}
-#box3 > div > div > div > p {
-  margin: auto;
-  margin-top: 10px;
-  margin-left: 15px;
-}
-.hl {
-  border-left: 1px solid grey;
-}
-.calm {
-  margin-top: 20px;
-}
-.calm > div:nth-child(2) {
-  margin-left: 5px;
-}
-
-.il {
-  border-left: 3px solid rgb(156, 51, 83);
-}
-
-/* ********************* */
-a {
-  text-align: center;
-}
-a > h3 {
-  color: rgb(156, 51, 83);
-}
-#imo {
-  margin-top: 20px;
-  margin-left: 80px;
-  border-radius: 11px;
-}
-#imo > div {
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  border-radius: 11px;
-}
-#shra {
-  margin-top: 50px;
-  background-image: linear-gradient(rgb(253, 200, 253), rgb(156, 51, 83));
-}
-
-#jub {
-  width: 60%;
-  margin: auto;
-  text-align: center;
-}
-#jub > h2 {
-  margin-top: 15%;
-  text-align: center;
-  font-size: 30px;
-}
-
-#footer {
-  display: flex;
-  justify-content: space-around;
-}
-}
-*{
-  font-family: Arial, Helvetica, sans-serif;
-}
-.box {
-  width: 80%;
   display: inline-block;
   position: relative;
   margin-left: 20%;
@@ -414,7 +107,6 @@ a > h3 {
   display: flex;
   text-align: center;
   margin: auto;
-
 }
 #main > div:nth-child(2) > img {
   width: 8%;
@@ -425,7 +117,7 @@ a > h3 {
 }
 #main > h1 {
   color: grey;
-  padding-right:15px;
+  padding-right: 15px;
 }
 .hea {
   width: 60%;
@@ -463,7 +155,7 @@ a > h3 {
 
 /* grid section */
 #box1 {
-  width: 50%;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: auto;
@@ -609,4 +301,321 @@ a > h3 {
 #footer {
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .box {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-left: 2%;
+    border-radius: 11px;
+    margin-bottom: 22%;
+    text-align: center;
+  }
+  .hover {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+
+    margin-bottom: 50px;
+
+    /* background-color: rgba(0, 188, 212, 0); */
+    /* transition: background-color 0.5s; */
+  }
+  #body-container {
+    display: flex;
+    margin-left: -70px;
+  }
+
+  #body-container > div:nth-child(1) {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #body-container > div:nth-child(1) > h1 {
+    font-size: 39px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #body-container > div:nth-child(1) > h2 {
+    color: grey;
+    font-size: 32px;
+  }
+  #body-container > div:nth-child(1) > p {
+    font-size: 25px;
+  }
+
+  #body-container > div:nth-child(2) {
+    display: flex;
+    width: 80%;
+    height: 600px;
+  }
+  #body-container > div:nth-child(2) > img {
+    width: 100%;
+    margin-left: -15px;
+    /* height: 100%; */
+  }
+  #big {
+    font-size: 5px;
+    display: flex;
+    width: 80%;
+    margin-top: 2px;
+    justify-content: center;
+    /* margin: auto; */
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(156, 51, 83);
+  }
+  #big > a {
+    font-size: 10px;
+  }
+  #body-container > div:nth-child(1) > div > a {
+    text-decoration: none;
+    color: white;
+  }
+  #small {
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  #small p:nth-child(1) {
+    color: rgb(156, 51, 83);
+  }
+  #small p:nth-child(2) {
+    color: grey;
+  }
+  .vl {
+    border-left: 2px solid grey;
+  }
+  #main {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    height: 70px;
+    display: flex;
+    margin-left: -2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .cl {
+    border-left: 6px solid rgb(156, 51, 83);
+  }
+  #main > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-left: -10px;
+  }
+  #main > div:nth-child(2) > img {
+    width: 25%;
+    height: 60px;
+    margin-left: 5%;
+  }
+  #main > div:nth-child(2) > h2 {
+    width: 100%;
+    margin-left: 7%;
+    margin: auto;
+    font-size: 20px;
+  }
+  #main > h1 {
+    color: grey;
+    padding-right: 15px;
+  }
+  .hea {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+
+  #t {
+    display: flex;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    /* border-radius: 50px; */
+  }
+  #t > button {
+    border: none;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    background-color: rgb(156, 51, 83);
+  }
+  #t > input {
+    width: 65%;
+    padding-left: 15px;
+    border: 1px solid rgb(156, 51, 83);
+    border-top-left-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    /* border background-color: rgb(156, 51, 83); */
+  }
+  #t > button > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* grid section */
+  #box1 {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: auto;
+    gap: 20px;
+  }
+  #box1 > div {
+    width: 100%;
+    margin-left: -10%;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #box1 > div:hover {
+    background-color: rgb(156, 51, 83);
+    color: white;
+  }
+  #box1 > div p:hover {
+    color: white;
+  }
+  /* **************************** */
+  #box3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(6, 1fr); */
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    gap: 15px;
+  }
+  #box3 > div {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  #box3 h3 {
+    color: grey;
+  }
+  @keyframes growProgressBar {
+    0%,
+    33% {
+      --pgPercentage: 0;
+    }
+    100% {
+      --pgPercentage: var(--value);
+    }
+  }
+
+  @property --pgPercentage {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  div[role="progressbar"] {
+    --size: 3rem;
+    --fg: rgb(55, 209, 35);
+    --bg: #def;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(
+        closest-side,
+        white 80%,
+        transparent 0 99.9%,
+        white 0
+      ),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) "%";
+  }
+  #box3 > div > div {
+    display: flex;
+  }
+  #box3 > div > div > div > h4 {
+    color: grey;
+    margin: auto;
+    margin-left: 18px;
+  }
+  #box3 > div > div > div > p {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .hl {
+    border-left: 1px solid grey;
+  }
+  .calm {
+    margin-top: 20px;
+  }
+  .calm > div:nth-child(2) {
+    margin-left: 5px;
+  }
+
+  .il {
+    border-left: 3px solid rgb(156, 51, 83);
+  }
+
+  /* ********************* */
+  a {
+    text-align: center;
+  }
+  a > h3 {
+    color: rgb(156, 51, 83);
+  }
+  #imo {
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 11px;
+  }
+  #imo > div {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 11px;
+  }
+  #shra {
+    margin-top: 50px;
+    background-image: linear-gradient(rgb(253, 200, 253), rgb(156, 51, 83));
+  }
+
+  #jub {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  #jub > h2 {
+    margin-top: 15%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: space-around;
+  }
 }
